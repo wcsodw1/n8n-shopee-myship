@@ -5,6 +5,9 @@ This project automates the extraction of e-commerce order data from emails and c
 
 ---
 
+## 🔄 System Pipeline / 系統流程圖
+![System Pipeline](./img/flow.png)
+
 ## 🚀 Project Overview / 專案簡介
 
 **English:**
