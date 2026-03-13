@@ -1,5 +1,4 @@
-# n8n Shopee & MyShip Order Automation 
-# n8n Shopee & 賣貨便 訂單自動化整合專案
+# n8n Shopee & MyShip Order Automation (# n8n Shopee & 賣貨便 訂單自動化整合專案)
 
 This project automates the extraction of e-commerce order data from emails and converts them into factory-ready shipping orders.
 本專案自動化提取電商郵件訂單數據，並將其轉換為工廠端的出貨單資訊。
@@ -44,3 +43,12 @@ If this is your first time running the project or if the container was deleted, 
 如果你是第一次在此目錄執行，或是不小心刪除了容器，請執行：
 ```bash
 docker-compose up -d
+```
+
+### 2. Check Logs / 查看日誌
+To debug JavaScript nodes or monitor processing status:
+監控即時訂單處理狀況或進行除錯：
+
+```bash
+docker logs -f n8n_shopee_myship
+```
