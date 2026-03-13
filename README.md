@@ -1,4 +1,4 @@
-# n8n Shopee & MyShip Order Automation (# n8n Shopee & 賣貨便 訂單自動化整合專案)
+# N8N Shopee & MyShip Order Automation (N8N Shopee & 賣貨便 訂單自動化整合專案)
 
 This project automates the extraction of e-commerce order data from emails and converts them into factory-ready shipping orders.
 本專案自動化提取電商郵件訂單數據，並將其轉換為工廠端的出貨單資訊。
