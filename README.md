@@ -18,6 +18,15 @@ An **E-commerce Order Automation System** designed to streamline post-purchase w
 
 ---
 
+## 📂 Project Structure / 專案結構
+
+* **`scripts/parsers/`**: Contains custom JavaScript logic used in n8n nodes.
+    * `shopee_parser.js`: Crawler for Shopee order emails.
+    * `myship_parser.js`: Crawler for 7-11 MyShip (賣貨便) emails.
+* **`docker-compose.yml`**: Defines n8n container configurations and volume mounting.
+* **`assets/`**: System architecture diagrams and pipeline flow images.
+
+
 ## 🌟 Features / 功能特點
 
 * **Automated Email Fetching**: Connects to IMAP/Gmail to monitor order notifications.
